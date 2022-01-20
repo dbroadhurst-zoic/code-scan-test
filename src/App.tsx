@@ -13,6 +13,14 @@ function App() {
 
   eval("console.log('eval')")
 
+  for (
+    var i = 1;
+    i != 10;
+    i += 2 // Noncompliant. Infinite; i goes from 9 straight to 11.
+  ) {
+    console.log(i)
+  }
+
   return (
     <div className="App">
       <header className="App-header">
