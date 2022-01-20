@@ -9,7 +9,6 @@ const myNumber = 010
 function App() {
   console.log(passwordTest)
   console.log(tokenTest)
-  console.log(myNumber)
 
   eval("console.log('eval')")
 
