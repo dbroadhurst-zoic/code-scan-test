@@ -6,13 +6,14 @@ const passwordTest = '!1234!'
 const tokenTest = '6542143b-d9eb-47fb-bcd5-4625e1fc78d2'
 const myNumber = 010
 
+function dupe() {}
+function dupe() {}
+
 function App() {
   console.log(passwordTest)
   console.log(tokenTest)
 
   eval("console.log('eval')")
-
-  bogusFunction()
 
   for (
     var i = 1;
