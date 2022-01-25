@@ -12,6 +12,8 @@ function App() {
 
   eval("console.log('eval')")
 
+  bogusFunction()
+
   for (
     var i = 1;
     i != 10;
